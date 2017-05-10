@@ -1,0 +1,80 @@
+body{
+  background-color: #f3ce1f;
+}
+.main-space{
+  height: 60vh;
+  background: #fff;
+  border-radius: 19px;
+  margin-top: 20vh;
+  
+}
+
+#qspace{
+	width:75%;
+	background: #fff;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:70px;
+   border-radius: 18px;
+}
+
+
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size: 0.9em;
+  color:#fff;
+}
+
+#quote{
+  font-family: Lucida Handwriting;
+  font-size: 1.85em;
+  color: #883434;
+}
+
+a{
+  color: white;
+  background-color: inherit;
+  font-family: Comic Sans MS;
+}
+
+a:hover{
+	cursor:pointer;
+	background:inherit;
+	color: #fff;	
+}
+
+a:active{
+	cursor:pointer;
+	background: inherit;
+	color: #fff;	
+}
+
+#qauthor{
+    font-style: italic;
+    padding-top:20px;
+    font-size:1.3em; 
+    text-align:right;
+ }
+
+
+#newq{
+  
+  background-color: #ec4c3c;
+  float: bottom;
+  border-radius: 15px;
+  width: 400px;
+}
+#newqt{
+  margin-top: 100px;
+  background-color: #ec4c3c;
+}
+
+@media screen and(max-width:760px){
+	#newq,#addNew{
+		display: block;
+	}
+}
